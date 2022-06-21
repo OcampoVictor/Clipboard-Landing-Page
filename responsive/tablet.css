@@ -1,0 +1,83 @@
+.header{
+    background: url("../images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header__container{
+    width: 55%;
+    
+}
+.header__container a{
+    display: inline-block;
+   padding: 15px;
+   width: 235px;
+   margin: 10px 10px 0px 0px;
+}
+
+.main__container{
+ width: 50%;
+}
+.main-container p{
+ padding: 0px 20px 0px 20px;
+
+}
+.main__container p{
+    margin-bottom: 90px;
+}
+.main__container-pc{
+   width: 100%;
+}
+.main__container-pc img{
+    width: 600px;
+    float: left;
+    margin-right: 90px;
+    margin-top: -10px;
+}
+.main__container-pc--position{
+    width: 80%;
+    text-align: left;
+}
+.main__container-benefit {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-self: center;
+    width: 90%;
+}
+.logos{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+   place-content: center;
+   justify-content: space-evenly;
+}
+.main__container-icons{
+    min-width: 300px;
+    max-width: 900px;
+}
+.main__download-app{
+    width: 45%;
+}
+.main__download-app a{
+    display: inline-block;
+    padding: 15px;
+    width: 235px;
+    margin: 10px 10px 0px 0px;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.links-footer{
+    width: 33%;
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.links-footer p{
+    list-style: none;
+}

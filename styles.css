@@ -1,0 +1,307 @@
+:root{
+   /*  colores primarios */
+   --strong-cyan: hsl(171, 66%, 44%);
+   --light-blue: hsl(233, 100%, 69%); 
+   /* colores neutrales */
+   --dark-grayish-blue: hsl(210, 10%, 33%);
+   --grayish-blue: hsl(201, 11%, 66%);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth; 
+    font-size: 62.5%;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.header{
+    background: url("images/bg-header-mobile.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: contain;
+}
+.header__container{
+    margin-top: 40px;
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    height: auto;
+    text-align: center;
+    align-self: center;
+}
+.header__container h1{
+    color: var(--dark-grayish-blue);
+    font-size: 2.5rem;
+}
+.header__container p{
+    font-size: 1.4rem;
+    color: var(--grayish-blue);
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.header img{
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+    align-self: center;
+}
+.header__container a{
+    display: block;
+    margin: auto;
+   padding: 15px;
+   margin-bottom: 15px;
+   border-radius: 50px;
+   width: 250px;
+   align-self: center;
+   color: #f2f2f2;
+   text-decoration: none;
+   font-weight: 600;
+   font-size: 1.4rem;
+  
+}
+.header__container--cyan{
+    background-color: var(--strong-cyan);
+    box-shadow: 2px 2px 2px 1px var(--strong-cyan);
+}
+.header__container--blue{
+    background-color: var(--light-blue);
+    box-shadow: 2px 2px 2px 1px var(--light-blue);
+}
+.main{
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.main__container{
+    margin-top: 60px;
+    width: 85%;
+    min-width: 285px;
+    max-width: 900px;
+    height: auto;
+    text-align: center;
+    align-self: center;
+}
+.main__container h2{
+    color: var(--dark-grayish-blue);
+    font-size: 2.5rem;
+    margin-top: 60px;
+}
+.main__container p{
+    font-size: 1.4rem;
+    color: var(--grayish-blue);
+    margin-top: 20px;
+}
+.main__container img{
+    margin-top: 50px;
+    width: 90%;
+    height: 90%;
+    align-self: center;
+}
+.main__container h3{
+    margin-top: 20px;
+    font-size: 2.5rem;
+    color: var(--dark-grayish-blue);
+}
+.main__container-pc{
+    width: 90%;
+    align-self: center;
+    text-align: center;
+}
+.main__container-pc img{
+    width: 300px;
+   margin-top: 60px;
+}
+.main__container-pc  h3{
+    color: var(--dark-grayish-blue);
+    font-size: 2.5rem;
+    margin-top: 30px;
+}
+.main__container-pc p{
+    color: var(--grayish-blue);
+    font-size: 1.4rem;
+    margin-top: 20px;
+}
+.main__container-benefit{
+    margin-top: 60px;
+    width: 85%;
+    min-width: 285px;
+    max-width: 900px;
+    height: auto;
+    text-align: center;
+    align-self: center;
+}
+.main__container-icons{
+    margin-top: 60px;
+    width: 85%;
+    min-width: 285px;
+    max-width: 900px;
+    height: auto;
+    text-align: center;
+    align-self: center;
+}
+.main__container-benefit h3{
+    font-size: 2.5rem;
+    color: var(--dark-grayish-blue);
+}
+.main__container-benefit p{
+    font-size: 1.4rem;
+    color: var(--grayish-blue);
+    margin-top: 20px;
+}
+
+.main__container-icons h2{
+    font-size: 2.5rem;
+    color: var(--dark-grayish-blue);
+}
+.main__container-icons p{
+    font-size: 1.4rem;
+    color: var(--grayish-blue);
+    margin-top: 20px;
+}
+.icons{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin-top: 60px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.blacklist{
+    background-image: url('images/icon-blacklist.svg');
+}
+.snippets{
+    background-image: url('images/icon-text.svg');
+}
+.icon-preview{
+    background-image: url('images/icon-preview.svg');
+}
+
+article h3{
+    margin-top: 30px;
+    font-size: 2rem;
+    color: var(--dark-grayish-blue);
+}
+article p{
+    margin-top: 30px;
+}
+.logos{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.logos--size{
+    width: 85px;
+    height: 75px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-self: center;
+}
+.google{
+    background-image: url("images/logo-google.png");
+}
+.ibm{
+    background-image: url("images/logo-ibm.png");
+}
+.microsoft{
+    background-image: url("images/logo-microsoft.png");
+}
+.hp{
+    background-image: url("images/logo-hp.png");
+}
+.vector{
+    background-image: url("images/logo-vector-graphics.png");
+}
+.main__download-app{
+    width: 90%;
+    max-width: 900px;
+    min-width: 385;
+    text-align: center;
+    align-self: center;
+}
+.main__download-app a{
+    display: block;
+    margin: auto;
+   padding: 15px;
+   margin-bottom: 15px;
+   border-radius: 50px;
+   width: 250px;
+   align-self: center;
+   color: #f2f2f2;
+   text-decoration: none;
+   font-weight: 600;
+   font-size: 1.4rem;
+}
+.main__download-app h2{
+    margin-top: 70px;
+    font-size: 2.5rem;
+    color: var(--dark-grayish-blue);
+}
+.main__download-app p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: var(--grayish-blue);
+    font-size: 1.4rem;
+}
+.footer__container--cyan{
+    background-color: var(--strong-cyan);
+    box-shadow: 2px 2px 2px 1px var(--strong-cyan);
+    margin-bottom: 20px;
+}
+.footer__container--blue{
+    background-color: var(--light-blue);
+    box-shadow: 2px 2px 2px 1px var(--light-blue);
+    margin-bottom: 60px;
+}
+.footer{
+    background-color: #f2f2f2;
+    flex-direction: column;
+    text-align: center;
+    align-self: center;
+    margin-top: 100px;
+    width: 100%;
+    min-width: 320px;
+}
+.logo-footer img{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 40px;
+}
+.links-footer p{
+    font-size: 1.4rem;
+    color: var(--dark-grayish-blue);
+    line-height: 35px;
+}
+.facebook{
+    background-image: url('images/icon-facebook.svg');
+    width: 500px;
+}
+.twitter{
+    background-image: url("images/icon-twitter.svg");
+}
+.instagram{
+    background-image: url("images/icon-instagram.svg");
+}
+.icon-social{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    padding: 10px 30px 0;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
